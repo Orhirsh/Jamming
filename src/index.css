@@ -1,5 +1,32 @@
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+#root {
+  height: 100%;
+}
+
+h1 {
+  color: #0D1F2D;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
 body {
   margin: 0;
+  height: 100%;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +37,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::placeholder {
+  color: #FAE1DF;
+  /* Change the color to your desired value */
 }

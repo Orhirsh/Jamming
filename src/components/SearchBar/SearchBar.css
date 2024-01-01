@@ -1,4 +1,31 @@
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+#searchbar {
+    width: 15%;
+    align-self: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #0D1F2D;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+}
+
+
 .searchbtn {
-    margin: 250;
-    background-color: blue;
+    margin: auto;
+    background-color: #9EA3B0;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    color: #0D1F2D;
+    font-family: 'Architects Daughter', cursive;
+
+
 }

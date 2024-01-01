@@ -1,0 +1,53 @@
+.Track {
+    display: flex;
+    align-items: center;
+    background-color: rgba(102, 102, 102, 0.7);
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+.Track-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25%;
+    margin-left: 0.2px;
+    padding: auto;
+
+}
+
+
+
+.Track-information h3 {
+    margin-bottom: auto;
+    color: #FAE1DF;
+    padding: 8px;
+    max-width: 50%;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.Track-information p {
+    font-size: .83rem;
+    padding: 2px;
+    max-width: 50%;
+    font-weight: 400;
+    color: rgba(256, 256, 256, 0.8);
+    font-family: 'Nova Mono', monospace;
+
+}
+
+button {
+    background-color: rgba(102, 102, 102, 0.0);
+    z-index: 0;
+    color: #0D1F2D;
+    font-size: 2rem;
+    border: 0px;
+    float: right;
+
+}

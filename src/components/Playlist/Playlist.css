@@ -1,0 +1,83 @@
+.playlist_container {
+    width: 25%;
+    max-height: 450px;
+    background-color: rgba(102, 102, 102, 0.7);
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    overflow: auto;
+    overscroll-behavior: auto;
+
+
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    color: #FAE1DF;
+}
+
+.playlist_container::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+.playlist_container::-webkit-scrollbar-thumb {
+    background-color: #FAE1DF;
+}
+
+input {
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(102, 102, 102, 0.7);
+    width: 100%;
+    margin-top: 0;
+    border: 0;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+
+
+}
+
+input:focus {
+    border: none
+        /* Add your desired border style for the focus state */
+}
+
+.input_error {
+    margin: 5px auto;
+    background-color: #FAE1DF;
+    color: #8e1c14
+}
+
+.input_error::placeholder {
+    color: #8e1c14;
+}
+
+
+
+
+
+.save_playlist {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+
+
+}
+
+
+
+.savebtn {
+
+    background-color: #9EA3B0;
+
+    border-radius: 0.6rem;
+    color: #FAE1DF;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Architects Daughter', cursive;
+
+}
