@@ -1,0 +1,46 @@
+.main {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../images/DALL·E\ 2023-05-05\ 13.49.18\ -\ Neve\ console\ watercolor\ carton\ picture\ for\ website\ background\ dark\ colors.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: scroll;
+
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  margin: 0 auto;
+  background-color: #9EA3B0;
+  font-family: 'Permanent Marker', cursive;
+  ;
+}
+
+.mm {
+  color: #FAE1DF;
+}
+
+.results_and_newlist {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5rem;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
