@@ -74,31 +74,8 @@ function App() {
       clearTimeout(timerId); // Clear the timer on component unmount
     };
 
-  }, [access_token]); // Empty dependency array because the effect should run only once on mount
+  }, [access_token]);
 
-  // async function handleSearch(data) {
-  //   try {
-  //     if (access_token === null) {
-  //       getToken();
-
-  //     }
-
-  //     const results = await searchSpotify(data);
-
-  //     const list = results.tracks.items.map((item) => ({
-  //       id: item.id,
-  //       title: item.name,
-  //       album: item.album.name,
-  //       artist: item.artists[0].name,
-  //       isAdded: false,
-  //       uri: item.uri,
-  //     }));
-
-  //     setTracklist(list);
-  //   } catch (error) {
-  //     console.log('Error in search:', error);
-  //   }
-  // }
 
   function handleAddTrack(addedTrack) {
     setPlaylistTracks((prev) => [addedTrack, ...prev]);

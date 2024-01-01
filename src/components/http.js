@@ -51,7 +51,7 @@ export async function getUserId(token) {
 export async function postNewPlaylist(id, playlist, token) {
 
     const userId = id;
-    const accessToken = token; // Replace with the actual access token
+    const accessToken = token;
 
     const apiUrl = `https://api.spotify.com/v1/users/${userId}/playlists`;
     const headers = {

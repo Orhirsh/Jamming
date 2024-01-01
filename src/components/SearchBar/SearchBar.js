@@ -24,10 +24,6 @@ function SearchBar({ onSearch }) {
 
 
 
-
-
-
-
     return (
         <div className="searchbar">
             <label htmlFor="searchbar"></label>
